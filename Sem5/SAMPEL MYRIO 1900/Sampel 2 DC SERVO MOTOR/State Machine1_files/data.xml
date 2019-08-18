@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Page-1" NameU="Page-1">
+			<Layer IX="0">
+				<Name>Flowchart</Name>
+				<NameUniv>Flowchart</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Layer IX="1">
+				<Name>Connector</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="1" UniqueID="{5FFE922D-C902-48A7-B6F0-48CDFA1E39E4}" Name="Start state" NameU="Start state" Master="0">
+					<Text>START</Text>
+					<XForm>
+						<PinX Unit="IN_F">2.625000000000000</PinX>
+						<PinY Unit="IN_F">5.247390011338156</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="4" UniqueID="{FDC85D5E-8FA6-4D08-A3F1-67F650CD584D}" Name="State" NameU="State" Master="2">
+					<Text>INITIALIZE</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.062500000000000</PinX>
+						<PinY Unit="IN_F">5.591140011338156</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="5" UniqueID="{7A5A68F7-7E21-4805-AC15-FDBF57619C33}" Name="Center to center 2" NameU="Center to center 2" Master="3">
+					<XForm>
+						<PinX Unit="IN_F">3.500000000000000</PinX>
+						<PinY Unit="IN_F">4.908104297052442</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="6" UniqueID="{6A2A864E-0758-438E-8A7A-FDC63874558D}" Name="Loop on center" NameU="Loop on center" Master="4">
+					<XForm>
+						<PinX Unit="IN_F">4.073538773148147</PinX>
+						<PinY Unit="IN_F">5.856765011338156</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="7" UniqueID="{76B6EDBD-0A00-4891-B796-098D27DB57DF}" Name="Sheet.7" NameU="Sheet.7">
+					<Text>SW=False</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.281250000000000</PinX>
+						<PinY Unit="IN_F">6.247390011338156</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{2EA62CB7-882C-4CA5-A53E-B0CE8651630A}" Name="State.8" NameU="State.8" Master="2">
+					<Text>S=0o</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.812500000000000</PinX>
+						<PinY Unit="IN_F">5.575515011338156</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="9" UniqueID="{DE05C189-11D2-4438-9257-629432C2B809}" Name="Center to center 2.9" NameU="Center to center 2.9" Master="3">
+					<XForm>
+						<PinX Unit="IN_F">4.931822040284334</PinX>
+						<PinY Unit="IN_F">5.112344846318825</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="10" UniqueID="{1AE69DF6-192E-495C-AF66-99FD58686AB4}" Name="Loop on center.10" NameU="Loop on center.10" Master="4">
+					<XForm>
+						<PinX Unit="IN_F">5.795138888888889</PinX>
+						<PinY Unit="IN_F">5.848952511338156</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="11" UniqueID="{AB9AF0C3-73CA-4105-BE61-51A3F00E9211}" Name="Sheet.11" NameU="Sheet.11">
+					<Text>SW=True</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.937500000000000</PinX>
+						<PinY Unit="IN_F">5.903640011338156</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{A6F9CA6F-D48F-42FE-BAC2-F758C3F3356D}" Name="Sheet.12" NameU="Sheet.12">
+					<Text>t0&lt;5s</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.906250000000000</PinX>
+						<PinY Unit="IN_F">6.247390011338156</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{CCF62A2C-6498-41B2-B254-03F756392D46}" Name="State.13" NameU="State.13" Master="2">
+					<Text>S=30o</Text>
+					<XForm>
+						<PinX Unit="IN_F">7.595249856169277</PinX>
+						<PinY Unit="IN_F">5.442353592200487</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="14" UniqueID="{D87E3297-7195-42FB-9CE4-FD2CFAEBF70A}" Name="Center to center 2.14" NameU="Center to center 2.14" Master="3">
+					<XForm>
+						<PinX Unit="IN_F">6.714571896453611</PinX>
+						<PinY Unit="IN_F">4.979183427181155</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="15" UniqueID="{18389065-AF6C-4F97-BC06-F255DB90E109}" Name="Loop on center.15" NameU="Loop on center.15" Master="4">
+					<XForm>
+						<PinX Unit="IN_F">7.577888745058166</PinX>
+						<PinY Unit="IN_F">5.715791092200487</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="16" UniqueID="{D4052C47-6F85-4D0A-BE14-7328946B23F9}" Name="Sheet.16" NameU="Sheet.16">
+					<Text>t0=5s</Text>
+					<XForm>
+						<PinX Unit="IN_F">6.720249856169277</PinX>
+						<PinY Unit="IN_F">5.770478592200487</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{4948C889-4374-4B52-8E6B-F88CAEDDD4D1}" Name="Sheet.17" NameU="Sheet.17">
+					<Text>t1&lt;5s</Text>
+					<XForm>
+						<PinX Unit="IN_F">7.688999856169277</PinX>
+						<PinY Unit="IN_F">6.114228592200487</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="18" UniqueID="{6C7490F6-F9EA-4BF6-A205-A671ED545523}" Name="State.18" NameU="State.18" Master="2">
+					<Text>S=90o</Text>
+					<XForm>
+						<PinX Unit="IN_F">8.937500000000000</PinX>
+						<PinY Unit="IN_F">4.192725093847822</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="19" UniqueID="{AFFD0F08-AB97-429E-8558-91EF90AE007E}" Name="Center to center 2.19" NameU="Center to center 2.19" Master="3">
+					<XForm>
+						<PinX Unit="IN_F">7.832415265019619</PinX>
+						<PinY Unit="IN_F">4.558607599516900</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="20" UniqueID="{CB33323C-EDA2-49FF-8A2C-590B4B5F03EA}" Name="Loop on center.20" NameU="Loop on center.20" Master="4">
+					<XForm>
+						<PinX Unit="IN_F">8.920138888888889</PinX>
+						<PinY Unit="IN_F">4.466162593847822</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="22" UniqueID="{A74F97CF-7BBB-4A21-A0C8-BF455F263B49}" Name="Sheet.22" NameU="Sheet.22">
+					<Text>t2=5s</Text>
+					<XForm>
+						<PinX Unit="IN_F">9.031250000000000</PinX>
+						<PinY Unit="IN_F">4.864600093847822</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="21" UniqueID="{21DD5CE2-7225-471B-91CC-2EF9DC2BC8D9}" Name="Sheet.21" NameU="Sheet.21">
+					<Text>t1=5s</Text>
+					<XForm>
+						<PinX Unit="IN_F">8.375000000000000</PinX>
+						<PinY Unit="IN_F">5.122390011338156</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{A617FE22-A9A9-45D0-A615-2615B7C4B513}" Name="State.23" NameU="State.23" Master="2">
+					<Text>S=30o</Text>
+					<XForm>
+						<PinX Unit="IN_F">8.262834591149659</PinX>
+						<PinY Unit="IN_F">2.630225093847822</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="24" UniqueID="{30696B86-77B0-4B5A-9AA0-B1484C8DF8AF}" Name="Center to center 2.24" NameU="Center to center 2.24" Master="3">
+					<XForm>
+						<PinX Unit="IN_F">8.225849625660720</PinX>
+						<PinY Unit="IN_F">3.577324663564816</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="25" UniqueID="{0CE4A33F-C2F0-4B1A-A96C-060F0A593F30}" Name="Loop on center.25" NameU="Loop on center.25" Master="4">
+					<XForm>
+						<PinX Unit="IN_F">8.245473480038548</PinX>
+						<PinY Unit="IN_F">2.903662593847822</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="26" UniqueID="{2CF310FA-FDB7-4A4A-BB54-CC4650EB15CF}" Name="Sheet.26" NameU="Sheet.26">
+					<Text>T3&lt;5s</Text>
+					<XForm>
+						<PinX Unit="IN_F">8.356584591149659</PinX>
+						<PinY Unit="IN_F">3.302100093847822</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{51A75ACD-21AE-4C13-9288-5611354F9EC0}" Name="Sheet.27" NameU="Sheet.27">
+					<Text>t2=5s</Text>
+					<XForm>
+						<PinX Unit="IN_F">8.937500000000000</PinX>
+						<PinY Unit="IN_F">3.427100093847822</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="28" UniqueID="{C778852D-0A35-4484-A9EC-CA0A9AEE0D18}" Name="State.28" NameU="State.28" Master="2">
+					<Text>S=60o</Text>
+					<XForm>
+						<PinX Unit="IN_F">6.855084734980382</PinX>
+						<PinY Unit="IN_F">2.125000000000000</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="29" UniqueID="{6EE89E4A-C50F-4F4B-A231-6E13EC9D82B0}" Name="Center to center 2.29" NameU="Center to center 2.29" Master="3">
+					<XForm>
+						<PinX Unit="IN_F">7.560317716382433</PinX>
+						<PinY Unit="IN_F">2.827340713229619</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="30" UniqueID="{67A8E929-7BC6-4028-933A-FDBB28ECA4C3}" Name="Loop on center.30" NameU="Loop on center.30" Master="4">
+					<XForm>
+						<PinX Unit="IN_F">6.837723623869271</PinX>
+						<PinY Unit="IN_F">2.398437500000000</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="31" UniqueID="{DE383291-37D6-49D6-9F3C-85048B334701}" Name="Sheet.31" NameU="Sheet.31">
+					<Text>T4&lt;5s</Text>
+					<XForm>
+						<PinX Unit="IN_F">7.073834734980382</PinX>
+						<PinY Unit="IN_F">2.755225093847822</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="32" UniqueID="{3CFA74C5-4EDB-42EE-B2C5-0B12006915BF}" Name="Sheet.32" NameU="Sheet.32">
+					<Text>t3=5s</Text>
+					<XForm>
+						<PinX Unit="IN_F">7.718750000000000</PinX>
+						<PinY Unit="IN_F">2.125000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="33" UniqueID="{D377C2D8-59E8-4906-AEEF-C9AE6CAD744B}" Name="State.33" NameU="State.33" Master="2">
+					<Text>S=0o</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.251418020370148</PinX>
+						<PinY Unit="IN_F">2.567725093847822</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="34" UniqueID="{4B175A30-E589-42A1-B1DA-1D6CE48BEB24}" Name="Center to center 2.34" NameU="Center to center 2.34" Master="3">
+					<XForm>
+						<PinX Unit="IN_F">6.093750000000000</PinX>
+						<PinY Unit="IN_F">2.809890011338156</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="37" UniqueID="{3D35458E-9659-49A3-AD85-D745DDA28AD5}" Name="Sheet.37" NameU="Sheet.37">
+					<Text>t4=5s</Text>
+					<XForm>
+						<PinX Unit="IN_F">6.031250000000000</PinX>
+						<PinY Unit="IN_F">2.125000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="35" UniqueID="{DED18BE9-0A2C-4C3E-9659-D8CC8C79C3E0}" Name="Center to center 2.35" NameU="Center to center 2.35" Master="3">
+					<XForm>
+						<PinX Unit="IN_F">5.838878861616561</PinX>
+						<PinY Unit="IN_F">3.926475167058478</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="38" UniqueID="{2861F278-A656-4F69-BF05-EF36D778B453}" Name="Stop state" NameU="Stop state" Master="5">
+					<Text>STOP</Text>
+					<XForm>
+						<PinX Unit="IN_F">3.562500000000000</PinX>
+						<PinY Unit="IN_F">3.427100093847822</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="41" UniqueID="{325C52C1-85D5-4FA0-8DD3-1D7B80F2B0C7}" Name="Center to center 2.41" NameU="Center to center 2.41" Master="3">
+					<XForm>
+						<PinX Unit="IN_F">4.684762610273062</PinX>
+						<PinY Unit="IN_F">3.393964354579506</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="36" UniqueID="{B6CC09B0-6439-404C-A162-C8B4838C08AF}" Name="Sheet.36" NameU="Sheet.36">
+					<Text>SW=True</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.218040989814926</PinX>
+						<PinY Unit="IN_F">4.067725093847822</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="42" UniqueID="{B7D23B16-4D20-47D4-B95F-74C8D81B1BD6}" Name="Sheet.42" NameU="Sheet.42">
+					<Text>SW=False</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.187500000000000</PinX>
+						<PinY Unit="IN_F">2.809890011338156</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="44" UniqueID="{32FAD02D-B372-4F3C-9911-70F373DEDE97}" Name="Sheet.44" NameU="Sheet.44">
+					<Text>STATE TRANSITION DIAGRAM FOR DC SERVO MOTOR MECHANISM</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.687500000000000</PinX>
+						<PinY Unit="IN_F">7.187500000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="43" UniqueID="{DE406841-9BE6-4E99-B594-FFB877B5E85C}" Name="Sheet.43" NameU="Sheet.43">
+					<XForm>
+						<PinX Unit="IN_F">6.500000000000000</PinX>
+						<PinY Unit="IN_F">1.421875000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="45" UniqueID="{61337481-6305-4FC3-9F48-E9F9E2D51886}" Name="Sheet.45" NameU="Sheet.45">
+					<Text>0</Text>
+					<XForm>
+						<PinX Unit="IN_F">2.000000000000000</PinX>
+						<PinY Unit="IN_F">0.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="46" UniqueID="{336A32C8-D430-48F4-BD98-1D5A3B341665}" Name="Sheet.46" NameU="Sheet.46">
+					<Text>5</Text>
+					<XForm>
+						<PinX Unit="IN_F">2.500000000000000</PinX>
+						<PinY Unit="IN_F">0.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="47" UniqueID="{C09F23D8-EFC6-4954-8FBC-6E2F857AECEB}" Name="Sheet.47" NameU="Sheet.47">
+					<Text>10</Text>
+					<XForm>
+						<PinX Unit="IN_F">3.000000000000000</PinX>
+						<PinY Unit="IN_F">0.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="48" UniqueID="{EA285F2B-941D-4241-BA25-622F6DC6A1C3}" Name="Sheet.48" NameU="Sheet.48">
+					<Text>15</Text>
+					<XForm>
+						<PinX Unit="IN_F">3.500000000000000</PinX>
+						<PinY Unit="IN_F">0.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="49" UniqueID="{CB37A924-0D3C-4895-9EBF-671249433A7E}" Name="Sheet.49" NameU="Sheet.49">
+					<Text>20</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.000000000000000</PinX>
+						<PinY Unit="IN_F">0.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="50" UniqueID="{44C31E8F-6EB0-46E8-98A1-FD36B5E4A7EE}" Name="Sheet.50" NameU="Sheet.50">
+					<Text>25</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.500000000000000</PinX>
+						<PinY Unit="IN_F">0.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="51" UniqueID="{2E312A2B-6E15-4E6E-8002-18FB306A16F9}" Name="Sheet.51" NameU="Sheet.51">
+					<Text>30</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.000000000000000</PinX>
+						<PinY Unit="IN_F">0.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="52" UniqueID="{75FD9BBF-986C-46E5-A872-1C5FCD8B1181}" Name="Sheet.52" NameU="Sheet.52">
+					<Text>t (s)</Text>
+					<XForm>
+						<PinX Unit="IN_F">10.937500000000000</PinX>
+						<PinY Unit="IN_F">0.330078125000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="53" UniqueID="{247E8D39-9371-4B12-BD0C-17E69C3769EC}" Name="Sheet.53" NameU="Sheet.53">
+					<Text>S (o)</Text>
+					<XForm>
+						<PinX Unit="IN_F">2.125000000000000</PinX>
+						<PinY Unit="IN_F">2.487646968847822</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="54" UniqueID="{009035BE-C58B-4ABD-AA8D-3397478DF530}" Name="Sheet.54" NameU="Sheet.54">
+					<Text>30</Text>
+					<XForm>
+						<PinX Unit="IN_F">1.875000000000000</PinX>
+						<PinY Unit="IN_F">1.000000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="55" UniqueID="{27484907-3042-45D9-A9FA-BAADA9F00452}" Name="Sheet.55" NameU="Sheet.55">
+					<Text>60</Text>
+					<XForm>
+						<PinX Unit="IN_F">1.875000000000000</PinX>
+						<PinY Unit="IN_F">1.468750000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="56" UniqueID="{3166F12D-E4EE-440D-B283-0E77076298E0}" Name="Sheet.56" NameU="Sheet.56">
+					<Text>90</Text>
+					<XForm>
+						<PinX Unit="IN_F">1.875000000000000</PinX>
+						<PinY Unit="IN_F">2.000000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="57" UniqueID="{3B5083BC-1D39-4062-894C-10F5FB2E6F0F}" Name="Sheet.57" NameU="Sheet.57">
+					<XForm>
+						<PinX Unit="IN_F">4.750000000000000</PinX>
+						<PinY Unit="IN_F">1.250000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="58" UniqueID="{2D7D344B-4C62-4F9F-ACC4-4272E335EC64}" Name="Sheet.58" NameU="Sheet.58">
+					<Text>35</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.500000000000000</PinX>
+						<PinY Unit="IN_F">0.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="59" UniqueID="{A80CE749-CFB9-43C2-8467-B85311B7BE42}" Name="Sheet.59" NameU="Sheet.59">
+					<Text>40</Text>
+					<XForm>
+						<PinX Unit="IN_F">6.000000000000000</PinX>
+						<PinY Unit="IN_F">0.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="60" UniqueID="{4A37708A-AF5D-48C9-8F17-AA7B45263F4F}" Name="Sheet.60" NameU="Sheet.60">
+					<Text>45</Text>
+					<XForm>
+						<PinX Unit="IN_F">6.500000000000000</PinX>
+						<PinY Unit="IN_F">0.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="61" UniqueID="{1EE1A1DA-746B-44EA-BC8A-CDE4D19F7419}" Name="Sheet.61" NameU="Sheet.61">
+					<Text>50</Text>
+					<XForm>
+						<PinX Unit="IN_F">7.042584734980382</PinX>
+						<PinY Unit="IN_F">0.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="62" UniqueID="{AE6C2FAD-183B-4882-97EF-EE17B2789D4B}" Name="Sheet.62" NameU="Sheet.62">
+					<Text>Speed= 6 degrees/s</Text>
+					<XForm>
+						<PinX Unit="IN_F">7.318917295574829</PinX>
+						<PinY Unit="IN_F">1.341796875000000</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>
